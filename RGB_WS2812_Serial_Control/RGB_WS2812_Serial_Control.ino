@@ -1,3 +1,15 @@
+
+/*
+* Autor: carjavi@hotmail.com
+* Web: www.instintodigital.net
+* Copyright (c) 2023
+* Titule: Test RGB WS2812 24 Leds
+* Library:
+* Commands: 1-9 , letras(revisar)
+* Observation: 
+*/
+
+
 //**************** RGB Ring
 #include <FastLED.h>
 #define LED_PIN     6

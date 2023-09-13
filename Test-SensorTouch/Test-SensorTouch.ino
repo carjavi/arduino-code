@@ -1,3 +1,15 @@
+/*
+* Autor: carjavi@hotmail.com
+* Web: www.instintodigital.net
+* Copyright (c) 2023
+* Titule: Testing sensor Touch 
+* Library:
+* Commands:
+* Observation: 
+*/
+
+
+
 #define led 10
 #define sensorT 7
 int val = 0;

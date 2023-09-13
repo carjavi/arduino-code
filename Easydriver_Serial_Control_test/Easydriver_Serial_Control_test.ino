@@ -1,4 +1,15 @@
- //Declare pin functions on RedBoard
+/*
+* Autor: carjavi@hotmail.com
+* Web: www.instintodigital.net
+* Copyright (c) 2023
+* Titule: Easydriver_Serial_Control_test
+* Library:
+* Commands: tiene menu
+* Observation: Easydriver V4.4 A3967
+*/
+
+
+//Declare pin functions on RedBoard
 #define stp 2 // steps
 #define dir 3 // direction
 #define MS1 4 // table
