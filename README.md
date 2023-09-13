@@ -1,6 +1,6 @@
 <p align="center"><img src="./img/arduino-code.png" height="100" alt=" " /></p>
 <h1 align="center"> Arduino Code </h1> 
-<h4 align="right">Month 23</h4>
+<h4 align="right">Sep 23</h4>
 <img src="https://img.shields.io/badge/Hardware-Arduino__nano-red">
 <img src="https://img.shields.io/badge/Hardware-ESP32-red">
 <br>
