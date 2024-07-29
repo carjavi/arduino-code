@@ -13,7 +13,7 @@ async function findDevicePort() {
   const ports = await SerialPort.list();
   for (const port of ports) {
     if (port.manufacturer) {
-        console.log("manufacturer: " + port.manufacturer);
+        //console.log("manufacturer: " + port.manufacturer);
         var manufacturer = port.manufacturer;
       if (port.manufacturer.includes('Arduino')) {
         return { path: port.path, type: 'Arduino-original' };
@@ -41,6 +41,12 @@ async function start() {
 
     port.on('open', function() {
       console.log(`${deviceInfo.type} puerto abierto`);
+      port.write('Hola mundo\n', (err) => {
+        if (err) {
+          return console.log('Error al enviar el mensaje: ', err.message);
+        }
+        console.log('hola mundo enviado');
+      });
     });
 
     port.on("error", function(err) {
